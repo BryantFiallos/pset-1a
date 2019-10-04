@@ -3,6 +3,48 @@ body {
 }
 
 h1 {
-  font-size: 500px;
+  font-size: 150px;
   text-align: center;
+}
+
+* {
+    margin: 20;
+    padding: 0;
+}
+
+table {
+    border: 1px solid black;
+}
+
+.legend {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.header {
+  width: 1200px;
+  border: 1px solid black;
+  margin:auto;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 22px;
+}
+
+.legends-text {
+  color: white
+}
+
+.list {
+  margin-left: 3%
 }
