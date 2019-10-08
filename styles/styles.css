@@ -16,21 +16,8 @@ table {
     border: 1px solid black;
 }
 
-.legend {
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-
-}
-
 h2 {
   font-size: 50px;
-}
-
-.header {
-  width: 1200px;
-  border: 1px solid black;
-  margin:auto;
-  font-size: 30px;
 }
 
 h3 {
@@ -41,10 +28,31 @@ p {
   font-size: 22px;
 }
 
-.legends-text {
-  color: white
+.legend {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+.header {
+  width: 1200px;
+  border: 1px solid black;
+  margin:auto;
+  font-size: 30px;
 }
 
 .list {
   margin-left: 3%
+}
+
+#legends-text {
+font-size: 25px;
+  color: white
+}
+
+#wc2 {
+  background-color: #ffff66;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 40px
 }
