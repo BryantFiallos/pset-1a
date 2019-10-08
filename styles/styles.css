@@ -14,6 +14,7 @@ h1 {
 
 table {
     border: 1px solid black;
+    border-collapse: collapse;
 }
 
 h2 {
@@ -64,6 +65,14 @@ font-size: 25px;
   font-size: 35px;
 }
 
+tr th {
+  color: black;
+}
+
 a[href] {
   font-weight: bold;
+}
+
+a:hover {
+    color: green;
 }
