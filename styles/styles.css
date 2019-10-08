@@ -30,9 +30,8 @@ p {
 }
 
 .legend {
-  color: white;
+  color: black;
   text-shadow: 2px 2px 4px #000000;
-
 }
 
 .header {
@@ -46,9 +45,13 @@ p {
   margin-left: 3%
 }
 
+#legend-color {
+  background-color: #ffff66;
+}
+
 #legends-text {
 font-size: 25px;
-  color: white
+  color: black;
 }
 
 #wc2 {
