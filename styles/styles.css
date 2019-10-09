@@ -1,5 +1,10 @@
+* {
+    margin: 20;
+    padding: 0;
+}
+
 body {
-  background-color: #99ccff
+  background-color: #85B3D1FF
 }
 
 h1 {
@@ -7,14 +12,12 @@ h1 {
   text-align: center;
 }
 
-* {
-    margin: 20;
-    padding: 0;
-}
-
 table {
     border: 1px solid black;
-    border-collapse: collapse;
+    border-collapse: separate;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
 }
 
 h2 {
@@ -22,15 +25,15 @@ h2 {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 p {
-  font-size: 22px;
+  font-size: 25px;
 }
 
 .legend {
-  color: black;
+  color: #85B3D1FF;
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -42,16 +45,17 @@ p {
 }
 
 .list {
+  font-size: 18px;
   margin-left: 3%
 }
 
 #legend-color {
-  background-color: #ffff66;
+  background-color: #2460A7FF;
 }
 
 #legends-text {
-font-size: 25px;
-  color: black;
+font-size: 28px;
+  color: #85B3D1FF;
 }
 
 #wc2 {
@@ -62,7 +66,7 @@ font-size: 25px;
 }
 
 #foul {
-  background-color: red;
+  background-color: #ff4d4d;
   border: 1px solid black;
   text-align: center;
   font-size: 35px;
@@ -70,6 +74,8 @@ font-size: 25px;
 
 tr th {
   color: black;
+  font-weight: bold;
+  border: 1px solid black;
 }
 
 a[href] {
@@ -77,5 +83,5 @@ a[href] {
 }
 
 a:hover {
-    color: green;
+    color: white;
 }
